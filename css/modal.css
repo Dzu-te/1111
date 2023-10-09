@@ -1,0 +1,364 @@
+@media screen and (max-width: 767px) {
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+        min-width: 320px;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: normal;
+    }
+
+    .container {
+        width: 320px;
+    }
+
+    .footer {
+        width: 100%;
+        min-width: 320px;
+    }
+
+    .email-foot {
+        margin-left: 0;
+      }
+
+    .firstdiv-foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 72px;
+    }
+
+    .foot-cont-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .soc-med {
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot-form {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        align-items: center;
+    }
+
+    .email-foot {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 72px;
+    }
+
+    .foot-label {
+        margin-left: 0px;
+    }
+
+    .sub-label {
+        margin-left: 0;
+    }
+
+    .foot-inp {
+        width: 288px;
+    }
+
+    .foot-subs {
+        width: 165px;
+    }
+
+    .cont-foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ulone {
+        display: flex;
+        flex-direction: column;
+        width: 288px;
+    }
+
+    .bank {
+        width: 288px;
+    }
+
+    .mark {
+        width: 264px;
+    }
+
+    .ul-ourteam {
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+        margin: 0;
+        width: 264px;
+    }
+
+    .section-three .container {
+        padding: 0 24px;
+    }
+
+    .section-two, .section-three, .section-four {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        width: 100%;
+    }
+
+    .ourteam-ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 72px;
+    }
+
+    .lione {
+        width: 100%;
+    }
+
+    .strategy {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        justify-content: center;
+        display: flex;    
+    }
+
+    .section {
+        background-size: cover;
+        background-position: center;
+        padding: 72px 0;
+    }
+
+    .sect-hone {
+        margin: 72px 0;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        width: 288px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .modal-absol {
+        width: 288px;
+        padding: 72px 16px 24px;
+    }
+
+    .label-privacy {
+        display: flex;
+    }
+
+    .header-three-lines {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .backdrop {
+        width: 100%;
+    }
+
+    .lione {
+        width: 288px;
+    }
+
+    .lione-div {
+        display: none;
+    }
+
+    .header {
+        height: 56px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card-img {
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+        body {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .header {
+            width: 100%;
+        }
+
+        .lione-div {
+            display: none;
+        }
+
+        .firstdiv-foot {
+            margin-right: 24px;
+        }
+
+        .footer {
+            padding: 96px 0;
+        }
+
+        .cont-foot {
+            display: flex;
+            margin-bottom: 72px;
+        }
+
+        .footer .container {
+            width: 494px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        .sub-label {
+            margin-left: 0;
+        }
+
+        .foot-label {
+            margin-left: 0;
+        }
+
+        .email-foot {
+            margin-left: 0;
+        }
+
+        .bank {
+            width: 356px;
+        }
+
+        .ulone {
+            width: 736px;
+        }
+
+        .section-four {
+            padding: 96px 0;
+        }
+
+        .section-four .container {
+            width: 768px;
+        }
+
+        .section {
+            padding: 112px 0;
+        }
+
+        .section-two, .section-three {
+            padding: 96px 0;
+        }
+
+        .section-three .container {
+            width: 768px;
+            padding: 0 108px;
+        }
+
+        .mark {
+            width: 264px;
+        }
+
+        .section-two .container {
+            width: 768px;
+        }
+
+        .ourteam-ul {
+            width: 736px;
+            row-gap: 72px;
+        }
+
+        .ul-ourteam {
+            row-gap: 64px;
+        }
+
+        .lione {
+            width: 356px;
+        }
+
+        .strategy {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.11;
+            letter-spacing: 0.72px; 
+        }
+
+        .sect-hone {
+            margin: 0;
+            width: 496px;
+            display: contents;
+        }
+
+        .button {
+            margin: 36px auto 0;
+        }
+
+        .section .container {
+            width: 100%;
+            padding: 0 136px;
+        }
+
+        .header .container {
+            width: 768px;
+        }
+
+        .address-ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-top: 16px;
+        }
+
+        .address-li {
+            height: 14px;
+        }
+
+        .email {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 1.16;
+            letter-spacing: 0.48px;
+        }
+
+        .studio {
+            display: flex;
+            align-items: center;
+            padding: 36px 0 36px;
+            height: 24px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5; /* 150% */
+            letter-spacing: 0.32px; 
+        }
+}
+
+
+
+
+
+@media screen and (min-width: 769px) {
+    .header-three-lines {
+        visibility: hidden;
+        opacity: 0;
+        width: 0;
+    }    
+
+    .icon-group {
+        width: 0;
+        height: 0;
+    }
+} 
